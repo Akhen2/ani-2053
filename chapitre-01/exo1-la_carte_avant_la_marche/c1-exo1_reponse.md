@@ -1,12 +1,13 @@
+# Exercice 1
 Le nombre de type de projet est de : 4 
 StaticLib : 60
-TestLib : 60
+TestSuite : 60
 ConsoleApp : 98
 WindowedApp : 55
 Pour un total de 273 projets.
 Le nombre de toolchains est de : 5
 Le fichier de démarrage est : Sandbox
-Le fichier racine au workspace est : Nkentseu.jenga
+Le fichier racine au workspace se nomme : Nkentseu.jenga
 
 ========================== Jenga Workspace: Nkentseu ===========================
 
