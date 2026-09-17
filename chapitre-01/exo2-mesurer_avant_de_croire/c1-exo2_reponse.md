@@ -15,6 +15,8 @@ Donc la somme des fichiers .cpp et .h est de : 4 337 fichiers source
 
 ## Comparaison
 
-Dans le chapitre 1, nous avons 1 193 385 lignes mais avec codeline counter nous avons trouver 1 342 559 lignes donc nous avons 149 174 lignes. 
+Dans le chapitre 1, nous avons 1 193 385 lignes mais avec Powershell nous obtenons 1 809 767 grace à la commande : (Get-ChildItem -Path . -Recurse -File | Where-Object { $_.Extension -in ".cpp", ".h", "c", ".hpp" } | Get-Content | Where-Object { $_. Trim() -ne "" -and $_. Trim() -notmatch '^//' -and $_. Trim() -notmatch '^/\*' -and $_. Trim() -notmatch '^\*' -and $_. Trim() -notmatch '^\*/'} | Measure-Object).Count 
+
+ce qui nous fait une différence de 
 
 Dans le chapitre 1, nous avons 2 641 fichiers source mais avec mes commandes j'ai eu 4 337 fichiers source donc avec une différence de 1696
