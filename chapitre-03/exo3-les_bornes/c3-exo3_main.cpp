@@ -1,44 +1,24 @@
-# Exercice 1 :
-
-Dans ce code qui affiche une fenêtre, on retrouve 19 lignes de code.
-
-On y retrouve notamment :
-
-## Les includes
-
-````cpp
 #include "NKWindow/NKWindow.h"
 #include "NKWindow/NKMain.h"
-````
 
-## Le point d'entrée
+using namespace nkentseu;
 
-````cpp
-int nkmain(...)
-````
-
-## La partie déclaration
-
-````cpp
-NkWindowConfig cfg;
+int nkmain(const NkEntryState &state) {
+    // 1) Décrire la fenêtre
+    NkWindowConfig cfg;
     cfg.title  = "Ma fenêtre";
     cfg.width  = 1280;
     cfg.height = 720;
-````
+    cfg.minHeight = 590;
 
-## La partie création
-
-````cpp
-NkWindow window;
+    // 2) Créer la fenêtre
+    NkWindow window;
     if (!window.Create(cfg)) {
         return -1;   // échec de création
     }
-````
 
-## La boucle principale 
-
-````cpp
- while (window.IsOpen()) {
+    // 3) Boucle principale 
+    while (window.IsOpen()) {
       while (NkEvent* ev = NkEvents().PollEvent()) {
         if (ev->Is<NkWindowCloseEvent>()) {
             window.Close();          // l'utilisateur veut fermer
@@ -50,4 +30,8 @@ NkWindow window;
 
     }
 
-````
+    return 0;
+
+}
+   
+   
