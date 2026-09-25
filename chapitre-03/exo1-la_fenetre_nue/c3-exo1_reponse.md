@@ -10,12 +10,14 @@ On y retrouve notamment :
 #include "NKWindow/NKWindow.h"
 #include "NKWindow/NKMain.h"
 ````
+Indispensable pour commencer à programmer pour avoir les outils pour la création de la fenêtre. Ces includes se trouvent dans le chapitre
 
 ## Le point d'entrée
 
 ````cpp
 int nkmain(...)
 ````
+Ce point d'entrée se trouve effectivent dans le chapitre du cours.
 
 ## La partie déclaration
 
@@ -25,6 +27,7 @@ NkWindowConfig cfg;
     cfg.width  = 1280;
     cfg.height = 720;
 ````
+Elle sert à entrer les informations nécessaires pour la création de la fenêtre et ces différentes configurations se trouve dans le chapitre
 
 ## La partie création
 
@@ -34,6 +37,7 @@ NkWindow window;
         return -1;   // échec de création
     }
 ````
+Cette partie sert à vérifier si la fenêtre s'est correctement initialisée pour sa création. Elle se trouve dans le chapitre 
 
 ## La boucle principale 
 
@@ -49,5 +53,5 @@ NkWindow window;
     }
 
     }
-
 ````
+Ici, c'est la partie qui s'occupe de la gestion des évènements à savoir la fermeture, l'agrandissement et la réduction de la fenêtre. Cette partie se trouve dans le chapitre mais elle est completé par des éléments provenant du chapitre de NKEvents
