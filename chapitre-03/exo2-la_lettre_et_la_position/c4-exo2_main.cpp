@@ -22,8 +22,16 @@ int nkmain(const NkEntryState &state) {
         if (ev->Is<NkWindowCloseEvent>()) {
             window.Close();          // l'utilisateur veut fermer
         }
-        else if (auto* kp = ev->As<NkKeyPressEvent>()) {
-            if (kp->GetKey() == NkKey::NK_ESCAPE) window.Close();
+       
+        if (auto* kp = ev->As<NkKeyPressEvent>()) {
+        switch (kp->GetKey()) {
+        case NkKey::NK_ESCAPE: window.Close();       break;
+        case NkKey::NK_Z:  player.Up();        break;
+        case NkKey::NK_S:  player.Down();        break;
+        case NkKey::NK_Q:  player.Left();        break;
+        case NkKey::NK_D:  player.Right();        break;
+        default: break;
+            }
         }
     }
 

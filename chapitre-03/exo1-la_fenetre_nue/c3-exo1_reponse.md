@@ -1,6 +1,6 @@
 # Exercice 1 :
 
-Dans ce code qui affiche une fenêtre, on retrouve 19 lignes de code.
+Dans ce code qui affiche une fenêtre, on retrouve 27 lignes de code.
 
 On y retrouve notamment :
 

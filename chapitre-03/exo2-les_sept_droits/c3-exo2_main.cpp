@@ -10,6 +10,15 @@ int nkmain(const NkEntryState &state) {
     cfg.width  = 1280;
     cfg.height = 720;
 
+    // Les droits
+    cfg.frame = true;
+    cfg.resizable = true;
+    cfg.minimizable = true;
+    cfg.movable = true;
+    cfg.closable = true;
+    cfg.maximizable = true;
+    cfg.canFullscreen = false;
+
     // 2) Créer la fenêtre
     NkWindow window;
     if (!window.Create(cfg)) {
