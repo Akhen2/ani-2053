@@ -136,7 +136,7 @@ int main()
         }
 
         // Affichage des quatre coins dans l'ordre demandé.
-        cout << nom << " COINS";
+        std::cout << nom << " COINS" << std::endl;
 
         for (int j = 0; j < 4; ++j)
         {
