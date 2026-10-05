@@ -99,7 +99,7 @@ int main()
     std::cin >> N;
 
     // Tableau contenant tous les objets dans l'ordre de lecture
-    vector<Objet> objets;
+    std::vector<Objet> objets;
 
     // Profondeur maximale rencontrée
     int profondeurMax = 0;
