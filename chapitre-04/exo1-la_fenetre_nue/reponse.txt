@@ -1,0 +1,10 @@
+Ici, la coquille créée la fenêtre, gère les évènements de fermeture de la fenêtre et ses dimensionnements et le remplissage
+de la couleur grâce à "Config()." . Cela montre qu'avec cette méthode, plus besoin de créer des configurations soit même car la coquille le fait à notre place et cela rend le 
+travail plus simple et plus lisible.
+
+Si on configure dans la méthode OnInit(); dans notre exercice, le programme pourra compiler sans soucis lors de la compilation avec jenga b
+et s'executer sans problème lors de l'éxecution avec jenga r. Cela montre qu'on peut créer notre fenêtre directement à partir de cette méthode
+au lieu de le faire dans le constructeur.
+
+Lorsqu'on n'utilise pas NKMain.h dans le programme, on constate qu'il y a un problème de linker lors de la compilation et cela est due à l'introuvabilité de la fonction main()
+qui doit gérer l'entrée et donc le début du programme.

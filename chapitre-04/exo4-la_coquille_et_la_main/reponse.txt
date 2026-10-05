@@ -1,0 +1,2 @@
+Lorsqu'on utilise NkCanvasApp on remarque que en utilisant cette méthode, nous avons directement les ressources nécessaires pour 
+créer la fenêtre, gérer les différents évènements (fermeture, pression des touches, ...),
