@@ -129,10 +129,10 @@ int main()
 
         for (int j = 1; j < 4; ++j)
         {
-            minx = min(minx, coinsMonde[j].x);
-            maxx = max(maxx, coinsMonde[j].x);
-            miny = min(miny, coinsMonde[j].y);
-            maxy = max(maxy, coinsMonde[j].y);
+            minx = std::min(minx, coinsMonde[j].x);
+            maxx = std::max(maxx, coinsMonde[j].x);
+            miny = std::min(miny, coinsMonde[j].y);
+            maxy = std::max(maxy, coinsMonde[j].y);
         }
 
         // Affichage des quatre coins dans l'ordre demandé.
