@@ -1,2 +1,5 @@
-Lorsqu'on utilise NkCanvasApp on remarque que en utilisant cette méthode, nous avons directement les ressources nécessaires pour 
-créer la fenêtre, gérer les différents évènements (fermeture, pression des touches, ...),
+Ce que la coquille me donne : lorsqu'on utilise NkCanvasApp on remarque que en utilisant cette méthode, nous avons directement les ressources nécessaires pour créer la fenêtre, gérer les différents évènements (fermeture, pression des touches, ...).
+
+Ce qu'elle me prend : elle me prend la prise en main totale des éléments a utilisé pour la création de fenêtre, la création de la fenêtre de rendu et la gestion des différents évènements.
+
+Quand je choisirais la main : en choisisant la méthode de la main de la main, elle donne une meilleure maitrise des éléments qu'on utilise pour créer la fenêtre, la fenêtre de rendu et la gestion des évènements.
