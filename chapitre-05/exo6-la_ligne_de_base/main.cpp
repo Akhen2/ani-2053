@@ -43,7 +43,7 @@ struct Boite {
 
 int main() {
     // Table des glyphes.
-    unordered_map<char, Glyphe> glyphes;
+    std::unordered_map<char, Glyphe> glyphes;
 
     int G;
     std::cin >> G;
