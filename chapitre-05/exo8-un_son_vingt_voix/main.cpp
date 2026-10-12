@@ -47,7 +47,7 @@ int main() {
         }
 
         // Mise à jour du maximum de voix actives.
-        voixMax = max(voixMax, voix);
+        voixMax = std::max(voixMax, voix);
 
         // --------------------------------------------------
         // 2. Calcul du retard lié au chargement du fichier.
@@ -55,7 +55,7 @@ int main() {
         // Le chargement commence au plus tard de l'instant
         // de lecture prévu et de la fin du chargement précédent.
         long long debutChargement =
-            max(t, finChargementPrecedent);
+            std::max(t, finChargementPrecedent);
 
         // Le son ne commence qu'à la fin du chargement.
         long long finChargement = debutChargement + C;
@@ -69,7 +69,7 @@ int main() {
         finChargementPrecedent = finChargement;
 
         // Mise à jour du retard maximal.
-        retardMax = max(retardMax, retard);
+        retardMax = std::max(retardMax, retard);
 
         // --------------------------------------------------
         // 3. Détermination des coupures avec une seule voix.
