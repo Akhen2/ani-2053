@@ -62,7 +62,7 @@ bool commencePar(const std::vector<int>& octets,
 }
 
 // Vérifie si un octet correspond à une valeur parmi plusieurs possibilités.
-bool estDans(int valeur, const vector<int>& valeurs)
+bool estDans(int valeur, const std::vector<int>& valeurs)
 {
     return find(valeurs.begin(), valeurs.end(), valeur) != valeurs.end();
 }
