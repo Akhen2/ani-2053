@@ -59,7 +59,7 @@ int main() {
     }
 
     // Table des corrections de crénage.
-    unordered_map<Crenage, int, HachageCrenage> crenages;
+    std::unordered_map<Crenage, int, HachageCrenage> crenages;
 
     int K;
     std::cin >> K;
