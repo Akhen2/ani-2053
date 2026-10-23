@@ -1,0 +1,8 @@
+Module : NKStream
+
+D'après le projet : Dans cet exercice, le module choisi est le module « NKStream ». On constate que ce module peut avoir un accès direct au disque, à la possibilité d’afficher des messages, il peut aussi gérer les allocations, etc. On remarque également qu’il ne peut pas jouer de médias, ne peut pas gérer les fonctions mathématiques, ne peut pas se connecter à internet et ne possède pas d’interface.
+
+Après l'en-tête : Canvas/include/NKStream/NkStream.h
+On remarque que dans son fichier d'en-tête "NkStream", NKStream à la gestion d'une interface propre à lui avec ces propres fonctionnalités.
+
+Mes erreurs : J'ai remarqué que "NKStream" possède au final une interface contrairement à ce que les dépendances indiquaient.

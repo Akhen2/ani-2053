@@ -1,0 +1,8 @@
+Ce qu'il possède : Cet en-tête possède 4 choses, à savoir : un positionnement, une rotation, une translation, un échallonage.
+
+Qui l'appelle : NkDrawable.h -> NkRenderTarget.h -> Draw(); -> main.cpp
+
+Ce qu'il promet : Il permet de positionner un point dans le monde, il permet d'effectuer des transformations affines (translation, rotation) sur des points dans le monde à partir de leurs origines et il permet aussi de gérer les échelles des différents points dans le monde
+
+Ce que je n'ai pas lu : Tous les fichiers dans include/...
+
