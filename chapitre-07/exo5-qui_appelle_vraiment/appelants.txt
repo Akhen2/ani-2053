@@ -1,0 +1,9 @@
+Par le texte : grep -rn "void Draw(NkRenderTarget &target, const NkRenderStates &states)"
+NKCanvas/Renderer/Core/NkDrawable.h:51:                         virtual void Draw(NkRenderTarget &target, const NkRenderStates &states) const = 0;
+NKCanvas/Renderer/Resources/NkSprite.h:98:                              void Draw(NkRenderTarget &target, const NkRenderStates &states) const override;
+NKCanvas/Renderer/Resources/NkSprite.h:183:                             void Draw(NkRenderTarget &target, const NkRenderStates &states) const override;
+NKCanvas/Renderer/Shapes/NkShape.h:145:                         void Draw(NkRenderTarget &target, const NkRenderStates &states) const override;
+
+Par la pile : 
+
+Les différences : 

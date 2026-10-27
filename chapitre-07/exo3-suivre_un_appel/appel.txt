@@ -1,0 +1,10 @@
+Les sauts : 
+1- déclaration de la couleur choisie
+2- remplissage de la fenêtre par la couleur qui prend un NkRenderWindow
+3- Soumission d’une couleur 
+
+Arrêt : Dans Canvas\include\NKCanvas\Renderer\Targets\NkRenderTarget.h; virtual void Clear(const NkColor2D &color = NkColor2D::Black) = 0;
+
+Pourquoi là : le signal a été la visualition de la virtuelle pure de Draw
+
+Ce que je sais maintenant : Je sais maintenant qu'une fonction n'est pas juste appelé par un seul fichier .h lors de son appelation dans un programme
