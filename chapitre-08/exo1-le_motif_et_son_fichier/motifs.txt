@@ -1,0 +1,25 @@
+Stratégie : Canvas\include\NKContainers\Sequential\NkVector.h : 247 
+Stratégie de croissance : facteur ×2 pour réduire la fréquence
+
+Fabrique :Canvas\include\NKMath\NkBuoyancy.h : 202 	
+qui s'en servirait pour fabriquer son attendu comparerait la bibliothèque à
+
+Façade : Canvas\include\NKNetwork\Lobby\NkLobby.h : 641
+Cette classe agit comme une façade simplifiée sur NkSession, ajoutant :
+
+Patron de méthode : n'est pas dans le kit du 22 Octobtre 2026
+
+Observateur : Nkoa\include\NKMath\NkQuat.h : 415
+repère direct, un observateur qui regarde +Z avec +Y en haut a sa
+
+Singleton : Canvas\include\NKCore\Assert\NkAssertHandler.h : 165
+Design singleton statique : une seule instance globale implicite
+
+Adaptateur : Canvas\include\NKContainers\Sequential\NkDeque.h : 787
+@note Adaptateur NkReverseIterator pour parcours en sens inverse
+
+Composite : Canvas\include\NKContainers\Heterogeneous\NkTuple.h : 93 
+Clés composites pour les conteneurs associatifs (NkMap<NkTuple<K1,K2>, V>)
+
+Commande : Canvas\include\NKCanvas\App\NkCanvasApp.h : 129
+selon la plateforme, apres avoir consulte la ligne de commande

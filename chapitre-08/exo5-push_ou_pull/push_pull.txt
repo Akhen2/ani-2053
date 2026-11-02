@@ -1,0 +1,8 @@
+Situations : Le joueur maintient la flèche droite. C'est le modèle pull parce que l'évènement est durable dans le temps, grâce à la méthode "bool IsKeyRepeated(NkKey key) const noexcept;" du fichier Canvas\include\NKEvent\NkEventDispatcher.h : 275
+Il appuie sur Échap. C'est le modèle push parce que l'évènement est instantanné, grâce à la méthode "bool IsKeyDown(NkKey key) const noexcept;" du fichier Canvas\include\NKEvent\NkEventDispatcher.h : 273
+On veut la position de la souris. C'est le modèle pull parce que l'évènement est durable dans le temps, grâce aux méthodes "int32 MouseX() const noexcept;" et "int32 MouseY() const noexcept;" du fichier Canvas\include\NKEvent\NkEventDispatcher.h : 308 et 310
+Un fichier est déposé sur la fenêtre. C'est le modèle pull parce que l'évènement est durable dans le temps,
+La fenêtre est redimensionnée. C'est le modèle push parce que l'évènement est instantanné
+Le joueur double-clique. C'est le modèle push parce que l'évènement est instantanné, grâce à la méthode "bool IsLeftDown() const noexcept;" du fichier Canvas\include\NKEvent\NkEventDispatcher.h : 352
+
+Les deux bogues :

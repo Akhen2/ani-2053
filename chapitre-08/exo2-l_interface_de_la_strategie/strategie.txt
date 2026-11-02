@@ -1,0 +1,13 @@
+Virtuelles pures : Méthodes virtuelles pures de la classe NkIRenderer2D : 33, Les virtuelles qui ont un corps : 15, J’ai compté méthode par méthode dans la classe NkIRenderer2D qui est dans le fichier NkIRenderer2D.h
+
+Dorsaux : NKCanvas/Backend/ contient 6 dorsaux, Listage de chaque dorsal après examination de NKCanvas/Backend/
+
+Ce que chacun écrit : NkDX11Renderer2D.h : hérite de la classe NkDX11ComputeContext, son en-tête redéfinit 23 méthodes.
+NkDX12Renderer2D.h : hérite de la classe NkDX12Renderer2D, son en-tête redéfinit 29 méthodes.
+NkMetalRenderer2D.h : hérite de la classe NkMetalRenderer2D, son en-tête redéfinit 11 méthodes.
+NkOpenGLRenderer2D.h : hérite de la classe NkOpenGLRenderer2D, son en-tête redéfinit 32 méthodes.
+NkSoftwareRenderer2D.h : hérite de la classe NkSoftwareRenderer2D, son en-tête redéfinit 17 méthodes.
+NkVulkanRenderer2D.h : hérite de la classe NkVulkanRenderer2D, son en-tête redéfinit 32 méthodes.
+
+Le coût : 
+

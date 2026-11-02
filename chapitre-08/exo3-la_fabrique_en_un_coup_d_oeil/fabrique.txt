@@ -1,0 +1,17 @@
+Recherche :  grep -rn "NkOpenGLRenderer2D", le nombre de fichier est : 5 fichiers
+
+Hors de son dossier : NKCanvas/Backend/OpenGL/NkOpenGLRenderer2D.h:3: c’est un commentaire
+NKCanvas/Backend/OpenGL/NkOpenGLRenderer2D.h:13: c’est du code
+NKCanvas/Backend/OpenGL/NkOpenGLRenderer2D.h:15: c’est du code
+NKCanvas/Backend/OpenGL/NkOpenGLRenderer2D.h:17: c’est du code
+NKCanvas/Renderer/Core/NkIRenderer2D.h : 15 : c’est un commentaire
+NKCanvas/Renderer/Core/NkRenderer2D.h:19: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:22: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:24: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:25: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:26: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:27: c’est un commentaire
+NKCanvas/Renderer/Resources/NkTextureBackend.h:28: c’est un commentaire
+NKGui/Core/NkGuiDrawListRaster.h:35: c’est un commentaire
+
+Conclusion : Cela veut dire qu'une fabrique n'a pas besoin d'être spécifiquement apeller pour pouuvoir agir dans une classe ou un fichier
