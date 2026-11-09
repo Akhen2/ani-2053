@@ -1,0 +1,9 @@
+methode : HalfSize, promesses : 2
+
+methode : WorldToLocal, promesses : 3
+
+methode : GridSpacing, promesses : 1
+
+methode : PixelToWorld, promesses : 3
+
+methode : WorldToPixel, promesses : 3
