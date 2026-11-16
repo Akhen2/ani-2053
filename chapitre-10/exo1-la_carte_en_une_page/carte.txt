@@ -1,0 +1,9 @@
+fichier : main.cpp, lignes : 2138, inclut : NkRefView.h NkRefBoard.h NkRefFile.h
+
+fichier : NkRefView.h, lignes : 86, inclut : NKMath.h
+
+fichier : NkRefBoard.h, lignes : 371, inclut : NKMath.h NkVector.h NkString.h
+
+fichier : NkRefFile.h, lignes : 224, inclut : NkRefBoard.h NkRefView.h NkVector.h
+
+commit : 465b791cf

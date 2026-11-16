@@ -1,0 +1,5 @@
+Ce que possède chaque fichier : main.cpp possède la liaison totale entre les 3 autres fichiers de NkRef pour pouvoir utiliser toutes les méthodes des autres fichiers. NkRefView.h possède l'ensemble des méthodes qui aideront à quitter le monde vers l'écran et vis-versa. NkRefFile.h possède ce qu'un format doit contenir avant les données, NkRefBoard.h possède l'ordre est la profondeur
+
+La part des fichiers purs : main.cpp 75.84 %, NkRefView.h 3.05 %, NkRefBoard.h 13.16 %, NkRefFile.h 7.94 %
+
+Les deux fichiers que je garderais : NkRefView.h et NkRefBoard.h
