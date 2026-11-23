@@ -1,4 +1,4 @@
-[22/11/2026 11:27] Akhen Aristide: #include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 #include <sstream>
@@ -167,7 +167,7 @@ int main()
     {
         partNonDite = (100 * totalNonDits) / totalObservations;
     }
-[22/11/2026 11:27] Akhen Aristide: // Afficher les statistiques
+// Afficher les statistiques
     std::cout << "NON_DITS " << nonDits << "\n";
     std::cout << "PART_NON_DITE " << partNonDite << "\n";
 

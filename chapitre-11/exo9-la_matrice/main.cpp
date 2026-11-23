@@ -1,4 +1,4 @@
-[22/11/2026 11:28] Akhen Aristide: #include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -184,7 +184,7 @@ int main()
     }
 
     // Trier les entrées selon les règles de l'énoncé
-[22/11/2026 11:28] Akhen Aristide: std::sort(entrees.begin(), entrees.end(),
+std::sort(entrees.begin(), entrees.end(),
         [](const Entree& a, const Entree& b)
         {
             // 1. Priorité à la case

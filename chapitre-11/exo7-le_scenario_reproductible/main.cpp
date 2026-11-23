@@ -1,4 +1,4 @@
-[22/11/2026 11:25] Akhen Aristide: #include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 #include <map>
@@ -153,7 +153,7 @@ int main() {
         // ZOOM
         else if (nom == "NK_AGENT_ZOOM") {
             std::vector<std::string> champs = decouper(valeur, ':');
-[22/11/2026 11:25] Akhen Aristide: if (champs.size() < 4 ||
+            if (champs.size() < 4 ||
                 !estEntier(champs[0]) ||
                 !estNombre(champs[1]) ||
                 !estNombre(champs[2]) ||
@@ -286,7 +286,7 @@ int main() {
 
             long long n = std::stoll(valeur);
             totalGardes++;
-[22/11/2026 11:25] Akhen Aristide: if (n > 0) {
+            if (n > 0) {
                 tours[n].range.push_back("RANGE");
             }
         }
