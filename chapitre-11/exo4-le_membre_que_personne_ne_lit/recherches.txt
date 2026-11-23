@@ -1,0 +1,6 @@
+commit : 465b791cf
+
+Les miroirs : grep -rn "GetFlipX" Kernel
+Kernel/Runtime/NKCanvas/src/NKCanvas/Renderer/Batch/NkBatchRenderer2D.cpp:623:                  if (sprite.GetFlipX()) {
+Kernel/Runtime/NKCanvas/src/NKCanvas/Renderer/Resources/NkSprite.cpp:51:                bool NkSprite::GetFlipX() const {
+Kernel/Runtime/NKCanvas/src/NKCanvas/Renderer/Resources/NkSprite.h:82:                          bool GetFlipX() const;
